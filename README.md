@@ -10,7 +10,7 @@ Out of the box, it provides a client that can connect to any quassel core.
 Note that it always listens on port 64080 as this is the one exposed by the Dockerfile
 
 ```
-docker run -d --name quassel-webserver -P samdnic/quassel-webserver
+docker run -d --name quassel-webserver -P jkaberg/quassel-webserver
 ```
 
 Alternatively, you can specify advanced options by setting the following environment variables:
