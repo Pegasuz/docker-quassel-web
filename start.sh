@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 [ -z "$QUASSEL_HOST" ] && export QUASSEL_HOST=""
 [ -z "$QUASSEL_PORT" ] && export QUASSEL_PORT="4242"
 [ -z "$FORCE_DEFAULT" ] && export FORCE_DEFAULT="false"
